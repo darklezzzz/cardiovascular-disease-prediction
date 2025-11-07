@@ -1,0 +1,39 @@
+# =====================================================
+# GitHub Linguist configuration for proper language stats
+# =====================================================
+
+# --- Jupyter notebooks ---
+*.ipynb linguist-language=Jupyter\ Notebook
+# (не помечаем как documentation, чтобы они считались в статистике)
+
+# --- Python source files ---
+*.py linguist-language=Python
+*.pyw linguist-language=Python
+
+# --- Configuration and text files ---
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+*.json linguist-language=JSON
+*.txt linguist-documentation
+*.md linguist-documentation
+*.rst linguist-documentation
+
+# --- Data and binary model artifacts ---
+*.csv linguist-vendored
+*.tsv linguist-vendored
+*.pkl linguist-vendored
+*.joblib linguist-vendored
+*.h5 linguist-vendored
+*.pt linguist-vendored
+*.pb linguist-vendored
+
+# --- Images and visual assets ---
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.svg linguist-vendored
+*.gif linguist-vendored
+
+# --- Environments and others ---
+*.env linguist-vendored
+*.log linguist-vendored

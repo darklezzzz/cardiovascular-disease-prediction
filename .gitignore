@@ -1,0 +1,67 @@
+# --- Python / packaging
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+wheels/
+
+# --- Venv
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter
+.ipynb_checkpoints/
+notebooks/*-checkpoint.ipynb
+
+# --- IDE/editors
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.iml
+
+# --- ОС-trash
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# --- Temp files and cache
+*.log
+*.tmp
+*.temp
+.cache/
+*.cache
+.pytest_cache/
+.tox/
+
+# --- Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# ========================
+# Data and Model Files
+# ========================
+# Ignore dataset(s)
+data/*.csv
+data/*.xlsx
+data/*.zip
+# Keep important metadata
+!data/README.md
+!data/.gitkeep
+
+# Ignore trained model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+# Keep documentation
+!models/README.md
+!models/.gitkeep
