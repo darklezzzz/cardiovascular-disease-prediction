@@ -453,7 +453,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - **Dataset:** [Kaggle - Cardiovascular Disease Dataset](https://www.kaggle.com/datasets/sulianova/cardiovascular-disease-dataset)
 - **Libraries:** scikit-learn, XGBoost, SHAP, pandas, matplotlib
-- **Inspiration:** Real-world healthcare challenges in cardiovascular disease prevention
 
 ---
 
