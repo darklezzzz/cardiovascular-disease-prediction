@@ -33,7 +33,7 @@
 
 ---
 
-## 📋 Overview
+## 🧠 Overview
 A machine learning project for **predicting cardiovascular disease risk** using physiological and behavioral patient data.  
 Three classification models were trained and compared — achieving a **ROC-AUC of 0.799** on the test set.
 
